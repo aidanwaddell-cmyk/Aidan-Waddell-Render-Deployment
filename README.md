@@ -13,6 +13,6 @@ Sheikh, Ahmed. Week 4: Responsive Design. INFR 3120 – Web and Script Programmi
 
 Sheikh, Ahmed. Week 5: Interactive Transforms with CSS. INFR 3120 – Web and Script Programming, Ontario Tech University, 2025. PDF.
 
-Sheikh, Ahmed, S.A. 2025, 10, 22. INFR3120 - Sec 001 - Lecture - 2025/10/22 18:28. https://drive.google.com/file/d/18RxvPw9j4r2Sh9WKPyMrJziDSqwflkPy/view
+Sheikh, Ahmed, S.A. 2025, 10, 22. INFR3120 - Sec 001 - Lecture - 2025/10/22. https://drive.google.com/file/d/18RxvPw9j4r2Sh9WKPyMrJziDSqwflkPy/view
 
-Sheikh, Ahmed, S.A. 2025, 10, 22. INFR3120 - Sec 001 - Lecture - 2025/10/29 18:28. https://drive.google.com/file/d/18RxvPw9j4r2Sh9WKPyMrJziDSqwflkPy/view
+Sheikh, Ahmed, S.A. 2025, 10, 22. INFR3120 - Sec 001 - Lecture - 2025/10/29. https://drive.google.com/file/d/18RxvPw9j4r2Sh9WKPyMrJziDSqwflkPy/view
