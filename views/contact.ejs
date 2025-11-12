@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- State that we're using HTML as the document type-->
+<html>
+  <!--Below is the head section of the HTML document -->
+  <head>
+  <!--Below is the title of our website along with the links that connect to the corresponding CSS path, the bootstrap path, and the Fortawesome/fontawesome path-->
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/Content/style.css' />
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="@fortawesome/fontawesome-free/css/all.min.css">
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  </head>
+  <!--Below is the body of our page along with the partial that contains the navigation system of our website-->
+    <body>
+      <%-include ./partials/main_nav.ejs %>
+    <h1><%= title %></h1>
+    <p>How to reach me!</p>
+    <footer>
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <h6 class="navbar-text">&copy; All Rights Reserved<td>
+  <div class="container-fluid">
+    <a href ="https://www.linkedin.com/in/aidan-w-0b7454b5/">LinkedIn</a></td> <td><a href = "https://github.com/aidanwaddell-cmyk">GitHub</a></td>
+    <a class="navbar-brand" href="#"><li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li></a>
+  </div>
+</nav>
+</footer>
+    <script src ="/javascripts/app.js"></script>
+        <h1>Contacts</h1> 
+    <article>
+    <!-- Main content area for this page -->
+
+    <h3>Feel free to contact me by submitting your details in the form below!</h3>
+    <!-- Sub-heading -->
+
+    <form action="mailto:aidan.waddell@ontariotechu.net?subject=Signup" method="post" enctype="text/plain" name="form">
+    <!-- A form that sends data to an email address using mailto: (not always reliable).
+         action = where to send form data
+         method="post" = how data is sent
+         enctype="text/plain" = sends as plain text -->
+
+        <p>
+            <label for="name">Your Name</label>
+            <input type="text" name="name" size="32">
+            <!-- Text field for entering the user's name -->
+        </p>
+
+        <p>
+            <label for="email">Your Email</label>
+            <input name="email" type="email" size="32">
+            <!-- Field for entering an email address -->
+        </p>
+
+        <p></p>
+            <textarea name="comments" cols="60" rows="6"></textarea>
+            <!-- A text box for multi-line messages -->
+        </p>
+
+        <p><input type="submit" value="Click here to submit your details and message!"/></p>
+        <!-- Submit button to send the form -->
+
+        <p><input type="reset" value="Click here to reset the form"/></p>
+        <!-- Reset button clears the form -->
+    </form>
+</article>
+</section> 
+</article> 
+</div> 
+</body> 
+</html>
+  </body>
+</html>

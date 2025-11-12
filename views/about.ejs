@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- State that we're using HTML as the document type-->
+<html>
+  <!--Below is the head section of the HTML document -->
+  <head>
+  <!--Below is the title of our website along with the links that connect to the corresponding CSS path, the bootstrap path, and the Fortawesome/fontawesome path-->
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/Content/style.css' />
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="@fortawesome/fontawesome-free/css/all.min.css">
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  </head>
+  <!--Below is the body of our page along with the partial that contains the navigation system of our website-->
+    <body>
+      <%-include ./partials/main_nav.ejs %>
+    <h1><%= title %></h1>
+  <!--Below has the title of the page, the navbar footer that contains the links of our page that redirects us to my LinkedIn and my Github-->
+    <p>Welcome to my <%= title %> page!</p>
+    <footer>
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <h6 class="navbar-text">&copy; All Rights Reserved<td>
+  <div class="container-fluid">
+    <a href ="https://www.linkedin.com/in/aidan-w-0b7454b5/">LinkedIn</a></td> <td><a href = "https://github.com/aidanwaddell-cmyk">GitHub</a></td>
+    <a class="navbar-brand" href="#"><li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li></a>
+  </div>
+</nav>
+</footer>
+<!--The below code changes the path system of our page so that I can directly call from the javascripts folder as of opposed to the entire public path itself-->
+    <script src ="/javascripts/app.js"></script>
+<!--The below set of code contains the main content of the page, including the title and the article itself explaining who I am-->
+        <h1>About Me</h1> 
+    <article>  
+        <aside> 
+            <p>Who I am and what I do!</p>
+            </figcaption> 
+            </figure> 
+        </aside> 
+        <h3>Article heading goes here</h3> 
+        <p>Currently I'm a second-year Networking & IT Security Student as a mature student, and prior to attending the University I spent five years in the workforce primarily working as a private security professional along with five years of experience as a primary reservist with the Canadian Armed Forces! Currently, I serve at the Chief Operations officer for the Networking & IT Student Association, also known as Netsoc for short. It's with this student association that I've made a handful of peers and have gained a tremendous amount of practical experience with actual Cybersecurity and IT related topics, and hope to continue to grow with them for the rest of my time here at Ontario Tech University! </p> 
+        <img src="./public/Aidan-Waddell.jpg">
+</section> 
+</article> 
+</div> 
+</body> 
+</html>
+  </body>
+</html>

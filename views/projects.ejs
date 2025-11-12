@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- State that we're using HTML as the document type-->
+<html>
+  <!--Below is the head section of the HTML document -->
+  <head>
+    <!--Below is the title of our website along with the links that connect to the corresponding CSS path, the bootstrap path, and the Fortawesome/fontawesome path-->
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/Content/style.css' />
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="@fortawesome/fontawesome-free/css/all.min.css">
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  </head>
+  <!--Below is the body of our page along with the partial that contains the navigation system of our website-->
+    <body>
+      <%-include ./partials/main_nav.ejs %>
+    <h1><%= title %></h1>
+     <!--Below has the title of the page, the navbar footer that contains the links of our page that redirects us to my LinkedIn and my Github-->
+    <p>Welcome to my <%= title %> page!</p>
+    <footer>
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <h6 class="navbar-text">&copy; All Rights Reserved<td>
+  <div class="container-fluid">
+    <a href ="https://www.linkedin.com/in/aidan-w-0b7454b5/">LinkedIn</a></td> <td><a href = "https://github.com/aidanwaddell-cmyk">GitHub</a></td>
+    <a class="navbar-brand" href="#"><li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li></a>
+  </div>
+</nav>
+</footer>
+<!--The below code changes the path system of our page so that I can directly call from the javascripts folder as of opposed to the entire public path itself-->
+    <script src ="/javascripts/app.js"></script>
+        <h1>Aidan's Networking & IT Portfolio!</h1> 
+<!--The below set of code contains the main content of the page, including the title and the article itself explaining the projects I've done -->
+    <article>  
+        <aside> 
+            <p>During my time at Ontario Tech University I've had the opportunity to do a variety of things when it pertains to personal projects and Netsoc!</p>
+                 <h5>Here are some projects I've done that are mentioned below!</h5> 
+            </figcaption> 
+            </figure> 
+        </aside> 
+        <h3>My projects!</h3> 
+        <p>-Helped with the creation of a keylogger in Object Oriented Programming</p>
+        <p>-Helped co-host the subnetting workshop which attended to over 60 first-year students!</p> 
+        <p>-Helped create physical networking challenges at Netsoc's entry-style CTF!</p>
+        <p>-Helped Dr. Richard Pazzi with the high school CTF on October 17th!</p>
+</section> 
+</article> 
+</div> 
+</body> 
+</html>
+  </body>
+</html>
+
+<a class = "nav-link px-2 text-muted" href="/Contact">Contact</a>
